@@ -1,113 +1,94 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Web Portfolio GCP</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	</head>
-	<body>
-		
-		<input type="checkbox" id="check">
-		<div class="sidebar">
-			<ul>
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">My Project</a></li>
-				<li><a href="#">Contact Me</a></li>
-			</ul>
-		</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Portfolio GCP</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-		<header>
-			<div class="container">
-				<ul>
-					<li><a href="#about">About Me</a></li>
-					<li><a href="#project">My Project</a></li>
-					<li><a href="#contact">Contact Me</a></li>
-				</ul>
+  <body>
+    <!-- bagian banner -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner-center">
+          <img src="img/pic.jpeg" />
+          <h2>Faishal Makarim Kamali</h2>
+          <p>Cloud Computing Cohort at Bangkit Academy 2023</p>
+        </div>
+      </div>
+    </section>
 
-				<!-- menu mobile -->
-				<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
-			</div>
-		</header>
+    <section id="about">
+      <div class="container">
+        <h3>About Me</h3>
+        <p>
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          recusandae et, neque dolorum quod, magnam aliquid ad optio tenetur ut
+          illum beatae expedita! Culpa totam nemo corporis ipsum harum nesciunt?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+          quidem autem maiores molestiae molestias error eius adipisci beatae
+          asperiores, quo excepturi laudantium illum ipsa repellat repudiandae
+          animi, voluptate dolorum?<br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          recusandae et, neque dolorum quod, magnam aliquid ad optio tenetur ut
+          illum beatae expedita! Culpa totam nemo corporis ipsum harum nesciunt?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+          quidem autem maiores molestiae molestias error eius adipisci beatae
+          asperiores, quo excepturi laudantium illum ipsa repellat repudiandae
+          animi, voluptate dolorum?<br />
+        </p>
+      </div>
+    </section>
 
-		<!-- bagian banner -->
-		<section class="banner">
-			<div class="container">
-				<div class="banner-center">
-					<img src="img/pic.jpeg">
-					<h2>Hi,<br>
-						My name is <span class="typing-style"></span></h2>
-					<p>Cloud Computing Cohort at Bangkit Academy 2023</p>
-				</div>
-			</div>
-		</section>
+    <section id="portfolio">
+      <div class="container">
+        <h3>My Project</h3>
+        <div class="col-4">
+          <a href="">
+            <img src="img/car.jpg" />
+            <span>Project 1</span>
+          </a>
+        </div>
 
-		<section id="about">
-			<div class="container">
-				<h3>About Me</h3>
-				<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet laboriosam maiores excepturi, praesentium alias corporis dolorum dolores pariatur voluptate facilis saepe nesciunt voluptatibus at, molestiae expedita corrupti, quibusdam animi eligendi?
-                </p>
-			</div>
-		</section>
+        <div class="col-4">
+          <a href="">
+            <img src="img/car.jpg" />
+            <span>Project 2</span>
+          </a>
+        </div>
 
-		<section id="portfolio">
-			<div class="container">
-				<h3>My Project</h3>
-				<div class="col-4">
-					<a href="">
-						<img src="img/car.jpg">
-						<span>Project 1</span>
-					</a>
-				</div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/car.jpg" />
+            <span>Project 3</span>
+          </a>
+        </div>
 
-				<div class="col-4">
-					<a href="">
-						<img src="img/car.jpg">
-						<span>Project 2</span>
-					</a>
-				</div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/car.jpg" />
+            <span>Project 4</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-				<div class="col-4">
-					<a href="">
-						<img src="img/car.jpg">
-						<span>Project 3</span>
-					</a>
-				</div>
+    <section id="contact">
+      <div class="container">
+        <h3>Contact</h3>
 
-				<div class="col-4">
-					<a href="">
-						<img src="img/car.jpg">
-						<span>Project 4</span>
-					</a>
-				</div>
-			</div>
-		</section>
+        <div class="col-3">
+          <h4>Phone</h4>
+          <p>0812-3456-7891</p>
+        </div>
 
-		<section id="contact">
-			<div class="container">
-				<h3>Contact Me</h3>
-
-                <div class="col-3">
-					<h4>Phone</h4>
-					<p>0812-1935-5959</p>
-				</div>	
-
-                <div class="col-3">
-					<h4>Email</h4>
-					<p>c254bsy3171@bangkit.academy</p>
-				</div>
-
-			</div>
-		</section>
-
-		<footer>
-			<div class="container">
-				<small>Faishal Makarim (CC-46)</small>
-			</div>
-		</footer>
-
-		<script src="script.js"></script>
-	</body>
+        <div class="col-3">
+          <h4>Email</h4>
+          <p>c254bsy3171@bangkit.academy</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
